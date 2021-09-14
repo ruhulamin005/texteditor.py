@@ -1,1 +1,12 @@
-Hello there hi 5
+=====Invoice====Bill No:5
+Bill Date:2021-09-14
+Customer Name:Final Bill
+Customer Number:49845611
+Bill Details:
+Kraft Cheddar Cheese Slices						33					   2013.0
+
+
+
+─────────────────────────────────────────────────────────────
+Total											Bdt. 2013.0
+─────────────────────────────────────────────────────────────
