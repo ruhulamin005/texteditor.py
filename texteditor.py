@@ -41,7 +41,7 @@ file_menu.add_command(label = "Open")
 file_menu.add_command(label = "Save")
 
 file_menu.add_separator()
-file_menu.add_command(label = "Exit")
+file_menu.add_command(label = "Exit",command = root.quit)
 
 #Edit Menu
 
@@ -50,7 +50,7 @@ file_menu.add_command(label = "Exit")
 #root.config(menu=edit_menu)
 
 #Add a file menu for GUI 
-edit_menu = Menu(my_menu)
+edit_menu = Menu(my_menu, tearoff = False)
 my_menu.add_cascade(label = "Edit", menu=edit_menu)
 
 edit_menu.add_command(label = "Cut")
@@ -59,6 +59,10 @@ edit_menu.add_command(label = "Undo")
 edit_menu.add_command(label = "Redo")
 
 
+
+#Add Status Bar
+status_bar = Label(root,text='Ready  ', anchor = E)
+status_bar.pack(fill = X, side = BOTTOM, ipady=5)
 
 root.mainloop()
 
